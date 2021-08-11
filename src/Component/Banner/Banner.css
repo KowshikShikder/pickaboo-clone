@@ -1,0 +1,50 @@
+.banner{
+    position: relative;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 95%;
+    max-height: 80px;
+    display: grid;
+    justify-content: center;
+}
+
+.banner-smartphone{
+    max-height: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:770px) {
+
+    .banner img{
+        border-radius: 8px ;
+    }
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner-shadow{
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 100% ;
+    margin-left: 50%;
+    transition: 0.4s;
+}
+
+
+.banner:hover .banner-shadow{
+    width: 99.9%;
+    margin-left: 0px;
+}
+
+
+

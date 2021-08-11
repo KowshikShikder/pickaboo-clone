@@ -1,0 +1,139 @@
+.search-box-main{
+    width: 100%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 20% 50% 15% 15%;
+}
+
+
+.search-box-main .search-box-logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box-search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-box-search input{
+    width: 88%;
+    height: 40px;
+    border-radius: 4px;
+    border: 0.5px solid rgba(0, 0, 0, 0.199);
+    border-right: 0px;
+}
+
+.search-box-search input:focus{
+    outline: none;
+}
+
+.search-box-search .search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    border: 0.5px solid rgba(0, 0, 0, 0.199);
+    border-left: 0px;
+    margin-left: -2px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #CACACA;
+}
+
+
+
+
+.search-box-cart{
+    display: flex;
+    align-items: center;
+}
+
+.search-box-cart .cart-icon{
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #11A0DC;
+}
+
+
+.search-box-cart .cart-button{
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+    font-weight: 700;
+}
+
+.search-box-cart .cart-button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    top: -13px;
+    left: -15px;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.search-box-account{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.search-box-account div{
+    display: flex;
+    margin-right: 18px;
+}
+
+.search-box-account div:nth-child(2){
+    margin-right: 20px;
+    
+}
+
+.search-box-account div:hover{
+    color: #11A0DB;
+}
+
+.search-box-account div i{
+    margin-right: 8px;
+}
+
+
+@media screen and (max-width:1150px) {
+    .search-box-account{
+        display: grid;
+    }
+
+    .search-box-account div{
+        margin-right: 28px !important;
+    }
+    .search-box-account div:nth-child(2){
+        margin-top: -30px;
+    }
+    }
+
+
+
+@media screen and (max-width:770px) {
+
+    .search-box-main{
+        display: none;
+    }
+
+
+
+}

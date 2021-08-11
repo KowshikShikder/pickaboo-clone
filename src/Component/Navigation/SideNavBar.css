@@ -1,0 +1,129 @@
+/* .side-nav{
+    position: absolute;
+    top: 0;
+    height: 1000px ;
+    width: 90%;
+    left: 0px;
+    background-color: white;
+    border-right: 1px solid black;
+    overflow: scroll;
+}
+
+.side-nav-top-button{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+}
+
+.side-nav-top-button div{
+    background-color: #11A0DB;
+    width: 50%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.side-nav-top-button div:hover{
+    background-color: white !important;
+    color: #27B2EA !important;
+}
+
+.side-nav-button-active{
+    background-color: white !important;
+    color: #27B2EA !important;
+}
+
+
+
+.side-nav-button-parent{
+    height: 360px;
+    width: 100%;
+    background-color: white;
+}
+
+.side-nav-button{
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    color: black;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.527);
+    display: grid;
+    align-items: center;
+    position: relative;
+    transition: 0.4s;
+}
+
+.side-nav-button:hover{
+    background-color: #11A0DB;
+    color: white;
+}
+
+.side-nav-button-title{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.side-nav-drop-down{
+    width: 60px;
+    height: 59px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    
+}
+
+
+
+.side-nav-drop-down-menu{
+    background-color: #ffffff;
+    width: 100%;
+    height: 0px;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+
+.side-nav-drop-down-menu{
+    height: none;
+}
+
+
+.side-nav-drop-down-menu div{
+    height: 30px;
+    width: 90%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.side-nav-drop-down-menu div p{
+    margin-top: 10px;
+}
+
+.side-nav-drop-down-menu div:hover:not(.title){
+    background-color: #F1F1F1;
+    margin-left: 5px;
+    color: #11A0DB;
+} */

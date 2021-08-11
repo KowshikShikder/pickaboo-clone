@@ -1,0 +1,52 @@
+[
+    {
+        "image":"mobile-1.jpg",
+        "title1":"vivo Y53s 8GB/128GB",
+        "title2":"with free Vivo Backpac...",
+        "rating":"",
+        "price":"22,990"
+    },
+
+    {
+        "image":"mobile-2.jpg",
+        "title1":"Samsung Galaxy M12",
+        "title2":"6GB/128GB",
+        "rating":"2",
+        "price":"18,499"
+    },
+    
+    {
+        "image":"mobile-4.jpg",
+        "title1":"Infinix Hot 10 Play",
+        "title2":"4GB/64GB",
+        "rating":"4.5",
+        "price":"10,490"
+    },
+    
+    {
+        "image":"mobile-3.jpg",
+        "title1":"Samsung Galaxy A52",
+        "title2":"8GB/128GB",
+        "rating":"3.5",
+        "price":"33,999"
+    },
+    
+    {
+        "image":"mobile-5.jpg",
+        "title1":"Samsung Galaxy S21",
+        "title2":"Ultra 5G",
+        "rating":"2.5",
+        "price":"104,999",
+        "xPrice":"139,999"
+    },
+    
+    {
+        "image":"mobile-6.jpg",
+        "title1":"OPPO Reno5",
+        "title2":"8GB/128GB with free...",
+        "rating":"5.5",
+        "price":"32,990"
+    }
+
+
+]

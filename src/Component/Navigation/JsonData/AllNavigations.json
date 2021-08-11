@@ -1,0 +1,96 @@
+[
+    {
+        "smartphones":[
+            {
+                "smartPhones":"SamSung",
+                "link":"/home"
+            },
+            {
+                "smartPhones":"realme",
+                "link":"/home"
+            },
+            {
+                "smartPhones":"Oppo",
+                "link":"/home"
+            },
+            {
+                "smartPhones":"vivo",
+                "link":"/home"
+            },
+            {
+                "smartPhones":"Tecno"
+            },
+            {
+                "smartPhones":"infinix"
+            },
+            {
+                "smartPhones":"iPhone"
+            },
+            {
+                "smartPhones":"xiomi"
+            },
+            {
+                "smartPhones":"Motorola"
+            },
+            {
+                "smartPhones":"Huawei"
+            }
+        ]
+    },
+
+
+    {
+        "Featurephones":[
+            {
+                "featurePhones":"Samsung"
+            },
+            {
+                "featurePhones":"Nokia"
+            }
+        ]
+    },
+
+    {
+        "Homeappliance":[
+            {
+                "items":"Television"
+            },
+            {
+                "items":"Air Condition"
+            },
+            {
+                "items":"Refrigerator & Fridge"
+            },
+            {
+                "items":"Geyser/Room Heater"
+            },
+            {
+                "items":"Air Purifier"
+            },
+            {
+                "items":"Iron"
+            },
+            {
+                "items":"Washing Machine"
+            },
+            {
+                "items":"BOSCH Home Appliance"
+            },
+            {
+                "items":"Home Theater & Sound"
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+]

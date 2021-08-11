@@ -1,0 +1,37 @@
+[
+    
+    {
+        "smartPhones":"SamSung",
+        "link":"/home"
+    },
+    {
+        "smartPhones":"realme",
+        "link":"/home"
+    },
+    {
+        "smartPhones":"Oppo",
+        "link":"/home"
+    },
+    {
+        "smartPhones":"vivo",
+        "link":"/home"
+    },
+    {
+        "smartPhones":"Tecno"
+    },
+    {
+        "smartPhones":"infinix"
+    },
+    {
+        "smartPhones":"iPhone"
+    },
+    {
+        "smartPhones":"xiomi"
+    },
+    {
+        "smartPhones":"Motorola"
+    },
+    {
+        "smartPhones":"Huawei"
+    }
+]
