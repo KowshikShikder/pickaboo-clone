@@ -9,7 +9,7 @@ export default function Product(props) {
 
     return (
                 <div>
-                    <div className="image">  <img src={`${window.location.origin}/images/${image}`} alt=""/>  </div>
+                    <div className="image">  <img src={`${window.location.origin}/pickaboo-clone/images/${image}`} alt=""/>  </div>
                     
                     <div className="product-rating"> 
                         {rating ? <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly /> : "" } 

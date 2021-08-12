@@ -5,7 +5,7 @@ export default function SearchBox() {
     return (
         <>
             <div className="search-box-main">
-                <div className="search-box-logo">  <img src={`${window.location.origin}/images/PickabooLogoSearch.png`} alt=""/>  </div>
+                <div className="search-box-logo">  <img src={`${window.location.origin}/pickaboo-clone/images/PickabooLogoSearch.png`} alt=""/>  </div>
 
 
                 <div className="search-box-search"> <input type="text" placeholder="Search entire store here..." /> 

@@ -33,7 +33,7 @@ window.addEventListener("scroll", ()=>{
 export default function Slider() {
 
     const Slider= Slide.map( (img)=>{
-        return <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/images/${img.slide}`} alt=""/></SwiperSlide>
+        return <SwiperSlide className="gallery-img"> <img src={`${window.location.origin}/pickaboo-clone/images/${img.slide}`} alt=""/></SwiperSlide>
     } )
 
 

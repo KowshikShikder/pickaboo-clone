@@ -10,7 +10,7 @@ export default function Banner(props) {
     return (
         <>
             <div className="banner banner-smartphone">
-                <img src={`${window.location.origin}/images/${img}`} alt=""/>
+                <img src={`${window.location.origin}/pickaboo-clone/images/${img}`} alt=""/>
                 <div className="banner-shadow"></div>
             </div>
             

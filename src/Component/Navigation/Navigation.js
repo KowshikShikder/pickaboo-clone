@@ -405,7 +405,7 @@ export default function Navigation() {
             </div>
 
             <div className="nav-name">
-                <img src={`${window.location.origin}/images/PickabooLogo.png`} alt=""/>
+                <img src={`${window.location.origin}/pickaboo-clone/images/PickabooLogo.png`} alt=""/>
             </div>
             <div className="nav-icon">
                 <div> <i className="fas fa-search">   </i></div>
