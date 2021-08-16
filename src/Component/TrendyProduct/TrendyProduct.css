@@ -1,0 +1,132 @@
+.trendy-product-container{
+    display: none;
+}
+
+@media screen and (max-width:770px) {
+    .trendy-product-container{
+        display: grid;
+    }
+}
+
+
+.trendy-product-main{
+    width: 97%;
+    height: 42vw;
+    margin: auto;
+    display: grid;
+    align-items: center;
+}
+
+
+
+.trendy-product{
+    width: 100%;
+    height: 39.5vw;
+    display: grid;
+    grid-template-columns:40% 60%;
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+}
+
+.trendy-product-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.trendy-product-description{
+    padding: 2vw;
+}
+
+.trendy-product-description .trendy-title{
+    font-size: 2.3vw;
+}
+
+
+
+.trendy-product-description .product-price{
+    color: #f52e10;
+    font-size: 2.3vw;
+    font-weight: 800;
+    display: flex;
+    margin-top: 3vw;
+}
+
+
+
+.trendy-product-description .product-price div:nth-child(2){
+    margin-left: 2vw;
+    text-decoration: line-through;
+}
+
+.trendy-product-description .product-price span{
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin-left: -4px;
+}
+
+.trendy-product-description .trendy-rating .css-ryrseu-MuiRating-root{
+    margin-top: 1.5vw;
+    font-size: 2.6vw;
+}
+
+
+
+@media screen and (max-width:640px) {
+    
+    .trendy-product-main{
+        height: 160px;
+        padding-right: 2px;
+    }
+
+    .trendy-product{
+        height: 145px;
+        display: flex;
+    }
+    
+    
+    .trendy-product-image{
+        padding: 10px;
+        min-width: 140px;
+    }
+    
+    .trendy-product-description{
+        display: grid;
+        align-items: center;
+        padding: 0px;
+        grid-template-rows: 38% 20% 30%;
+        padding-left: 5vw;
+        width: 75%;
+    }
+    
+    .trendy-product-description .trendy-title{
+        font-size: 16px;
+    }
+    
+    
+    
+    .trendy-product-description .product-price{
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 1.5vw;
+    }
+    
+    .trendy-product-description .product-price div:nth-child(2){
+        font-size: 17px;
+        font-weight: 800;
+    }
+    
+    
+    .trendy-product-description .product-price span{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .trendy-product-description .product-price div:nth-child(2) span{
+        font-size: 14px;
+    }
+    
+    .trendy-product-description .trendy-rating .css-ryrseu-MuiRating-root{
+        font-size: 16px;
+    }
+    
+
+}

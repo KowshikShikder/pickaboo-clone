@@ -4,9 +4,68 @@
         "title1":"vivo Y53s 8GB/128GB",
         "title2":"with free Vivo Backpac...",
         "rating":"",
-        "price":"22,990"
+        "price":"22,990",
+        "first pick":"true",
+        "brand":"Apple",
+        "soldBy":"Apple Official",
+        "discount":"-10%",
+        "club point":"66",
+        "warranty":"12 Month Official Warranty",
+        "one time warranty":"One Time Replacement in whole Warranty Period",
+        "screen protect":"468",
+        "Delivery":[{"dhaka":"300"}, {"else":"500"}],
+        "installation":[{"dhaka":"2500"}, {"else":"Not Available"}, {"iron bar":"1000"}],
+        "EMI":"EMIs from ৳4542.19/month",
+        "color black":[ 
+            {"img:":"com-accessories-1-img-1.jpg"},
+            {"img:":"com-accessories-1-img-2.jpg"},
+            {"img:":"com-accessories-1-img-3.jpg"},
+            {"img:":"com-accessories-1-img-4.jpg"}
+        ],
+        "color silver":[ 
+            {"img:":"com-accessories-1-img-5.jpg"},
+            {"img:":"com-accessories-1-img-6.jpg"},
+            {"img:":"com-accessories-1-img-7.jpg"},
+            {"img:":"com-accessories-1-img-8.jpg"}
+        ],
+
+
+
+        "details":[
+            {
+                "title":"Apple iphone 12 Pro Max 128GB",
+                "informations":[
+                    {"info":"OS: iOS 14"},
+                    {"info":"Chipset: A14 Bionic chip. Next‑generation Neural Engine"},
+                    {"info":"CPU: Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)"},
+                    {"info":"GPU: Apple GPU (4-core graphics)"},
+                    {"info":"Display: 6.7‑inch (diagonal) all‑screen OLED display"},
+                    {"info":"Display Type: Super Retina XDR display, HDR10"},
+                    {"info":"Resolution: 2778‑by‑1284-pixel resolution at 458 ppi"},
+                    {"info":"RAM: 6GB"},
+                    {"info":"ROM: 128GB"}
+
+                ]
+
+            },
+            {
+                "description img:":"mobile-description.jpg"
+            }
+        ],
+
+        "more info":[
+            {"title":"Brand", "info":"Apple"},
+            {"title":"SKU", "info":"AIP12PM128"},
+            {"title":"Express Delivery", "info":"No"},
+            {"title":"Warranty Information", "info":"12 Months Official Warranty"},
+            {"title":"Emi Available", "info":"0"}
+        ]
     },
 
+
+
+
+    
     {
         "image":"com-accessories-2.jpg",
         "title1":"Samsung Galaxy M12",

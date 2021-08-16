@@ -10,10 +10,21 @@ import LaptopAccessories from "././JsonData/laptopAccessories.json"
 import LifeStyle from '././JsonData/lifestyle.json'
 
 
+
+window.addEventListener("resize", ()=>{
+    if(window.innerWidth >= 770){
+        document.getElementById('navigation-parent').style.position="relative"
+        document.getElementById('navigation-parent').style.marginTop="0px"
+    }
+
+})
+
+
+
     if(window.innerWidth <= 770 ){
 
     window.addEventListener("scroll", ()=>{
-        if(window.scrollY > 100){
+        if(window.scrollY > 100 & window.innerWidth <= 770 ){
         document.getElementById('navigation-parent').style.position="fixed"
         document.getElementById('navigation-parent').style.marginTop="-8vw"
 
@@ -34,7 +45,6 @@ export default function Navigation() {
         setTimeout(()=>{
         document.getElementById('side-nav-parent').style.display="none"
         },500)
-        // document.getElementById('side-nav-parent').style.opacity="0"
 
     }
 
@@ -43,7 +53,6 @@ export default function Navigation() {
         setTimeout(()=>{
         document.getElementById('side-nav-parent').style.marginLeft="-10px"
             },10)
-        // document.getElementById('side-nav-parent').style.opacity="1"
     }
 
 

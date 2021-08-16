@@ -1,6 +1,5 @@
 import React from 'react'
 import Rating from '@material-ui/core/Rating'
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 export default function Product(props) {

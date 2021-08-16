@@ -6,7 +6,7 @@ import Banner from './Component/Banner/Banner';
 import Title from './Component/Title/Title';
 import ProductsContainer from './Component/ProductsContainer/ProductsContainer';
 import Catagories from './Component/Catagories/Catagories'
-import TrendyProduct from './Component/TopBanner/TrendyProduct/TrendyProduct';
+import TrendyProduct from './Component/TrendyProduct/TrendyProduct';
 
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
         <Navigation/>
         <Slider/>
 
-        <Title text="Shop By Catagories" />
+
+        <Title text="Shop By Catagories" className="catagories-title" />
         <Catagories/>
 
                     {/* Smartphones */}
@@ -26,12 +27,19 @@ function App() {
         <ProductsContainer Data="Smartphone"/>
 
 
+        
+
 
                     {/* Mobile Accessories */}
 
         <Banner img="banner-mobile-accessories.jpg" />
-        <Title text="Mobile Accessories" />
-        <ProductsContainer Data="MobileAccessories"/>
+
+        <Title text="Mobile Accessories" className="mobile-accessories-title" />
+        <ProductsContainer Data="MobileAccessories" className="ProductsContainer"/> 
+
+
+        <Title text="Trendy Product" className="trendy-product-title" />
+        <TrendyProduct/>
 
 
                     {/* Laptop Accessories */}
@@ -65,9 +73,8 @@ function App() {
         <ProductsContainer Data="Electronics"/>
 
 
-        {/* <br/><br/><br/><br/> */}
+        <br/><br/><br/><br/>
 
-        {/* <TrendyProduct/> */}
 
 
         <br/><br/><br/><br/>

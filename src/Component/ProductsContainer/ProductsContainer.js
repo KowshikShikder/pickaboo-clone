@@ -13,12 +13,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 export default function ProductSlide(props) {
-    const {Data}  = props
+    const {Data, className}  = props
 
     return (
         <>
             <Swiper
-                className="product-container"
+                className={`product-container ${className}`}
                 spaceBetween={7}
                     breakpoints={{
                         // when window width is >= 640px
@@ -42,12 +42,17 @@ export default function ProductSlide(props) {
                         }
                     }}
                 >
-                
+
                 {   Data === "Smartphone" ? Smartphone.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
-                    Data === "MobileAccessories" ? MobileAccessories.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
-                    Data === "LaptopAccessories" ? LaptopAccessories.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
+
+                    Data === "MobileAccessories" ? MobileAccessories.map( (x) => <SwiperSlide  className={`product`}> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
+
+                    Data === "LaptopAccessories" ? LaptopAccessories.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) :
+
                     Data === "ComputerAccessories" ? ComputerAccessories.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
+
                     Data === "Lifestyle" ? Lifestyle.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : 
+
                     Data === "Electronics" ? Electronics.map( (x) => <SwiperSlide  className="product"> <Product image={x.image} title1={x.title1} title2={x.title2} rating={x.rating} price={x.price} xPrice={x.xPrice} />  </SwiperSlide>) : ""
                 }
                 

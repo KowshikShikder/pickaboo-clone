@@ -223,3 +223,17 @@
         font-size: 2.5vw;
     }
 }
+
+
+
+/* Product Accessories */
+
+.ProductsContainer{
+    display: grid;
+}
+
+@media screen and (max-width:770px){
+    .ProductsContainer{
+        display: none;
+    }
+}

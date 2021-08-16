@@ -17,3 +17,39 @@
     margin-top: 16px;
     border-bottom: 3.5px solid #11A0DB;
 }
+
+
+
+
+
+
+
+/* Responsive For Items */
+
+
+
+.catagories-title{
+    display: none;
+}
+
+.mobile-accessories-title{
+    display: grid;
+}
+
+.trendy-product-title{
+    display: none;
+}
+
+@media screen and (max-width:770px){
+    .catagories-title{
+        display: grid;
+    }
+
+    .mobile-accessories-title{
+        display: none;
+    }
+
+    .trendy-product-title{
+        display: grid;
+    }
+}

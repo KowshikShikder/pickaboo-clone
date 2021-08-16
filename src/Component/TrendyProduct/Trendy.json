@@ -1,0 +1,29 @@
+[
+    {
+        "image":"mobile-accessories-1.jpg",
+        "title1":"Amazfit GTS 2 Mini Smart Watch",
+        "rating":"4.5",
+        "price":"৳7,499",
+        "xPrice":"9,999",
+        "discount":"-25%"
+    },
+
+    {
+        "image":"mobile-accessories-2.jpg",
+        "title1":"realme Buds Air 2 Active Noise Cancellation Earphone",
+        "rating":"5",
+        "price":"3,649",
+        "xPrice":"4,190",
+        "discount":"-23%"
+    },
+
+    {
+        "image":"mobile-accessories-3.jpg",
+        "title1":"Amazfit GTR 2 AMOLED Curved Display 47mm",
+        "rating":"4.5",
+        "price":"13,199",
+        "xPrice":"17,990",
+        "discount":"-27%"
+    }
+
+]

@@ -5,11 +5,11 @@ import './Title.css'
 
 export default function Title(props) {
 
-    const {text} = props
+    const {text, className } = props
 
     return (
         <>
-            <div className="title">
+            <div className={`title ${className}`} >
                 <span> {text} </span>
             </div>
         </>
